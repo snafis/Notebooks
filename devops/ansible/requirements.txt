@@ -33,4 +33,4 @@ redis==2.10.5
 rsa==3.4.2
 s3transfer==0.1.10
 six==1.10.0
-Werkzeug==0.12.1
+Werkzeug==0.15.3
