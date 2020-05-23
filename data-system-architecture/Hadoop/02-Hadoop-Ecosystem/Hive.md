@@ -1,0 +1,1 @@
+# Hive - Hadoop Data Warehouse

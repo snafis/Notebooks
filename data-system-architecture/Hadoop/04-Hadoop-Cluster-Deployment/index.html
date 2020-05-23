@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.0/mermaid.full.min.js"></script>
+  </head>
+
+  <body>
+<div class="mermaid">
+  graph: |
+      graph LR;
+      A[Physics Based Model]-->B(Feature Identification);
+      B-->C(Feature Encoding);
+      B-->b1((segmentation));
+      C-->D(Data Analytics);
+      C-->c1((spatial statistics));
+      D-->|collaborate|E{Design};
+      D-->d1((PCA));
+      E-->|iterate|A;
+  </div>
+  </body>
+
+</html>
